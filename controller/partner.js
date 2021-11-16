@@ -39,7 +39,7 @@ const add = (map, info, points = null) => {
 const partnerController = {
     addTransaction (req, res) {
         //everytime a new post request is sent the it stores the transactions into an array
-        //that array if sorted by calling sortPartners(). Adds all of the totalPoints each partner has
+        //that array is sorted by calling sortPartners(). Adds all of the totalPoints each partner has
         //in an object for later use. plus a helper total variable to check the total amount of a points
         //for all partners
         const requestBody = req.body;
