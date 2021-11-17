@@ -7,6 +7,11 @@ How to Run
 3. run "npm start"
 4. use postman to check
 
+Endpoints using port 3000
+1.localhost:3000/transactions/add
+2.localhost:3000/spend
+3.localhost:3000/all
+
 # Comments
 Bulk of the logic is in the controller partner.js. I wrote some comments in the code to explain my thought process.
 I used nodejs to make a simple api server for this assignment. It seems the most reasonable since making a nodejs
